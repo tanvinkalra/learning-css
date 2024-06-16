@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.header {
+  width: 90%;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.title {
+  font-size: 1.5rem;
+  flex: 1;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-container {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+}
