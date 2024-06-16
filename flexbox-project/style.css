@@ -29,31 +29,31 @@ button {
   padding: 1rem 0;
 }
 
-.title {
+.header__title {
   font-size: 1.5rem;
   flex: 1;
   text-transform: uppercase;
 }
 
-.menu {
+.header__menu {
   display: flex;
   flex: 1;
   justify-content: center;
   gap: 1rem;
 }
 
-.link {
+.header__link {
   text-decoration: none;
   color: black;
 }
 
-.btn-container {
+.header__btn-container {
   display: flex;
   flex: 1;
   justify-content: flex-end;
   gap: 1rem;
 }
-
+/* utilty class */
 .btn {
   background-color: black;
   color: white;
