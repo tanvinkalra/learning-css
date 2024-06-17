@@ -22,8 +22,6 @@ button {
 }
 
 .header {
-  width: 90%;
-  margin-inline: auto;
   display: flex;
   align-items: center;
   padding: 1rem 0;
@@ -53,9 +51,36 @@ button {
   justify-content: flex-end;
   gap: 1rem;
 }
+/* hero section */
+.hero {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.hero__title {
+  font-size: 4rem;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+  margin-inline: auto;
+  max-width: 25ch;
+}
+
+.hero__description {
+  font-size: 1.2rem;
+  max-width: 60ch;
+  margin: 2rem auto;
+}
+
 /* utilty class */
 .btn {
+  text-decoration: none;
+  display: inline-block;
   background-color: black;
   color: white;
   padding: 0.5rem 1rem;
+}
+
+.container {
+  width: 90%;
+  margin-inline: auto;
 }
