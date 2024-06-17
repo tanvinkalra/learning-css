@@ -170,6 +170,25 @@ button {
 .features__box-description {
   margin-top: 1rem;
 }
+
+/* contact */
+
+.contact {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.contact__title {
+  font-size: 2.25rem;
+  letter-spacing: -0.05rem;
+  line-height: 1;
+}
+
+.contact__description {
+  font-size: 1.2rem;
+  max-width: 60ch;
+  margin: 1rem auto;
+}
 /* utilty class */
 .btn {
   text-decoration: none;
