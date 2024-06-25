@@ -265,6 +265,15 @@ button {
   .features__description {
     font-size: 1rem;
   }
+
+  /* contact */
+  .contact__title {
+    font-size: 2rem;
+  }
+
+  .contact__description {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 713px) {
@@ -348,6 +357,20 @@ button {
     font-size: 0.9rem;
     margin-top: 0.5rem;
   }
+
+  /* contact */
+  .contact__title {
+    font-size: 1.5rem;
+  }
+
+  .contact__description {
+    font-size: 0.8rem;
+    margin: 0.5rem auto;
+  }
+
+  .contact__btn {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 495px) {
@@ -367,6 +390,10 @@ button {
   .features__title {
     font-size: 1.3rem;
   }
+  /* contact */
+  .contact__title {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 396px) {
@@ -382,6 +409,11 @@ button {
 
   /* features section */
   .features__title {
+    font-size: 1.1rem;
+  }
+
+  /* contact */
+  .contact__title {
     font-size: 1.1rem;
   }
 }
