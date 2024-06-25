@@ -256,6 +256,15 @@ button {
   .pricing__price {
     font-size: 1.5rem;
   }
+
+  /* features section */
+  .features__title {
+    font-size: 2rem;
+  }
+
+  .features__description {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 713px) {
@@ -316,6 +325,29 @@ button {
   .pricing__plan-description {
     font-size: 0.9rem;
   }
+
+  /* features section */
+  .features {
+    margin-top: 5rem;
+  }
+
+  .features__title {
+    font-size: 1.5rem;
+  }
+
+  .features__description {
+    font-size: 0.8rem;
+    margin: 0.5rem auto;
+  }
+
+  .features__box-title {
+    font-size: 1rem;
+  }
+
+  .features__box-description {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
 }
 
 @media (max-width: 495px) {
@@ -331,6 +363,10 @@ button {
   .pricing__box {
     min-width: 290px;
   }
+  /* features section */
+  .features__title {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 396px) {
@@ -341,6 +377,11 @@ button {
 
   /* pricing section */
   .pricing__title {
+    font-size: 1.1rem;
+  }
+
+  /* features section */
+  .features__title {
     font-size: 1.1rem;
   }
 }
