@@ -51,6 +51,11 @@ button {
   justify-content: flex-end;
   gap: 1rem;
 }
+
+.header__bars {
+  display: none;
+}
+
 /* hero section */
 .hero {
   text-align: center;
@@ -89,6 +94,7 @@ button {
 
 .pricing__container {
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
@@ -98,6 +104,7 @@ button {
   padding: 2rem;
   border-radius: 20px;
   flex: 1;
+  min-width: 400px;
 }
 
 .pricing__price {
@@ -214,4 +221,199 @@ button {
 .container {
   width: 90%;
   margin-inline: auto;
+}
+
+/* media queries */
+@media (max-width: 891px) {
+  /* header section */
+  .header__title {
+    font-size: 1.2rem;
+  }
+
+  .header__link {
+    font-size: 0.8rem;
+  }
+
+  /* hero section */
+  .hero__title {
+    font-size: 3rem;
+  }
+
+  .hero__description {
+    font-size: 1rem;
+    margin: 1.5rem auto;
+  }
+
+  /* pricing section */
+  .pricing__title {
+    font-size: 2rem;
+  }
+
+  .pricing__description {
+    font-size: 1rem;
+  }
+
+  .pricing__price {
+    font-size: 1.5rem;
+  }
+
+  /* features section */
+  .features__title {
+    font-size: 2rem;
+  }
+
+  .features__description {
+    font-size: 1rem;
+  }
+
+  /* contact */
+  .contact__title {
+    font-size: 2rem;
+  }
+
+  .contact__description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 713px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__btn-container {
+    display: none;
+  }
+
+  .header__bars {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .header__title {
+    flex: 0 1 auto;
+  }
+
+  /* hero section */
+  .hero {
+    margin-top: 5rem;
+  }
+
+  .hero__title {
+    font-size: 2.5rem;
+  }
+
+  .hero__description {
+    font-size: 0.8rem;
+    margin: 1rem auto;
+  }
+
+  .hero__btn {
+    font-size: 0.8rem;
+  }
+
+  /* pricing section */
+  .pricing {
+    margin-top: 5rem;
+  }
+
+  .pricing__title {
+    font-size: 1.5rem;
+  }
+
+  .pricing__description {
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
+  }
+
+  .pricing__plan-description {
+    font-size: 0.9rem;
+  }
+
+  /* features section */
+  .features {
+    margin-top: 5rem;
+  }
+
+  .features__title {
+    font-size: 1.5rem;
+  }
+
+  .features__description {
+    font-size: 0.8rem;
+    margin: 0.5rem auto;
+  }
+
+  .features__box-title {
+    font-size: 1rem;
+  }
+
+  .features__box-description {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+
+  /* contact */
+  .contact__title {
+    font-size: 1.5rem;
+  }
+
+  .contact__description {
+    font-size: 0.8rem;
+    margin: 0.5rem auto;
+  }
+
+  .contact__btn {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 495px) {
+  /* hero section */
+  .hero__title {
+    font-size: 2rem;
+  }
+  /* pricing section */
+  .pricing__title {
+    font-size: 1.3rem;
+  }
+
+  .pricing__box {
+    min-width: 290px;
+  }
+  /* features section */
+  .features__title {
+    font-size: 1.3rem;
+  }
+  /* contact */
+  .contact__title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 396px) {
+  /* hero section */
+  .hero__title {
+    font-size: 1.6rem;
+  }
+
+  /* pricing section */
+  .pricing__title {
+    font-size: 1.1rem;
+  }
+
+  /* features section */
+  .features__title {
+    font-size: 1.1rem;
+  }
+
+  /* contact */
+  .contact__title {
+    font-size: 1.1rem;
+  }
 }
