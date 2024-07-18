@@ -23,14 +23,14 @@
   --size-lg: 1.125rem;
   --size-xl: 1.25rem;
   --size-2xl: 1.5rem;
-  --size-3x1: 1.875rem;
-  --size-4x1: 2.25rem;
-  --size-5x1: 3rem;
-  --size-6x1: 3.75rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
   --size-7xl: 4.5rem;
-  --size-8x1: 6rem;
-  --size-9x1: 8rem;
-  --size-10x1: 10rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
 }
 
 * {
